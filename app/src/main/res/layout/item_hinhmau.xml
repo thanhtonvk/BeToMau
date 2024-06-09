@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="20dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:cardCornerRadius="5dp">
+        <ImageView
+            android:scaleType="centerInside"
+            android:backgroundTint="#00FFFFFF"
+            android:id="@+id/itm_hinh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/anh1" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#80FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_tenchude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#42A5F5"
+            android:textSize="30sp"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
